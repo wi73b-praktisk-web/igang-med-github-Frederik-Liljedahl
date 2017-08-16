@@ -9,7 +9,7 @@ hvis så det ikke var korrekt køre du else og så siger den hvad der så sker
 ### for-løkke
 Inden i for-løkken har du en variabel, som du gerne vil have til at køre et antal gange, som du så beskrive inde i den kodeblock du har sammen med din variabel.
 ## Øvelser - operatorer
-= samme som <br>
+<p>= samme som <br>
 == svare til <br>
 === svare til og samme type <br>
 != svare ikke til <br>
@@ -18,7 +18,7 @@ Inden i for-løkken har du en variabel, som du gerne vil have til at køre et an
 < mindre end <br>
 >= større end eller svare til <br>
 <= mindre end eller svare til <br>
-<p>+ at plusse <br>
++ at plusse <br>
 - at minuesse <br>
 * at gange <br>
 / dividere <br>
