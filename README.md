@@ -18,9 +18,10 @@ Inden i for-løkken har du en variabel, som du gerne vil have til at køre et an
 < mindre end <br>
 >= større end eller svare til <br>
 <= mindre end eller svare til <br>
-+ at plusse <br>
+<p>+ at plusse</p> <br>
 - at minuesse <br>
 * at gange <br>
 / dividere <br>
 % Modulus <br>
-
+&& og
+|| eller
