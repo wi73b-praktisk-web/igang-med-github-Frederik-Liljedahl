@@ -9,18 +9,18 @@ hvis så det ikke var korrekt køre du else og så siger den hvad der så sker
 ### for-løkke
 Inden i for-løkken har du en variabel, som du gerne vil have til at køre et antal gange, som du så beskrive inde i den kodeblock du har sammen med din variabel.
 ## Øvelser - operatorer
-1. = samme som
-2. == svare til
-3. === svare til og samme type
-4. != svare ikke til
-5. !== svare ikke til og ikke samme type
-6. > større end
-7. < mindre end
-8. >= større end eller svare til
-9. <= mindre end eller svare til
-10. + at plusse 
-11. - at minuesse 
-12. * at gange
-13. / dividere
-14. Modulus
-15.
+= samme som
+== svare til
+=== svare til og samme type
+!= svare ikke til
+!== svare ikke til og ikke samme type
+> større end
+< mindre end
+>= større end eller svare til
+<= mindre end eller svare til
++ at plusse 
+- at minuesse 
+* at gange
+/ dividere
+% Modulus
+
