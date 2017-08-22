@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star wars</title>
+</head>
+
+<body>
+<div id="content">hej med dig..</div>
+
+</body>
+<script>
+fetch('https://swapi.co/api/people/')
+   .then((response) => {
+    content.innerHTML = '';
+      return response.json();
+   })
+
+   .then((json) => {
+      var content = document.getElementById('content');
+      content.innerHTML += '<h1 style="color:red;">' + json.results[0].name + '</h1>';
+      content.innerHTML += '<h3>' + 'mass: ' + json.results[0].mass + '</h3>';
+      content.innerHTML += '<h3>' + 'height: ' +  json.results[0].height + '</h3>';
+      content.innerHTML += '<h3>' + 'gender: ' +  json.results[0].gender + '</h3>';
+   })
+</script>
+
+</html>
