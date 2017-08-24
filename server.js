@@ -1,15 +1,11 @@
 const http = require('http');
-
 const hostname = '127.0.0.1';
-
 const port = 3000;
 
-const server = http.createServer(function (req, res) {
-   res.statusCode = 200;
-   res.setHeader('Content-Type', 'text/plain');
-   res.end('Hello from server');
-});
+const router = require('./controllers/routesController');
 
-server.listen(port, hostname, function () {
-   console.log(`serveren kører på http://${hostname}:${port}/`);
-});
+http.createServer(function (req, res) {
+    router.init(req, res);
+}).listen(port, hostname);
+
+console.log(`serveren kører på http://${hostname}:${port}/`);
